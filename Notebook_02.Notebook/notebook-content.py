@@ -12,6 +12,7 @@
 # CELL ********************
 
 print("Hello World")
+print("FABRIC NOTEBOOK CODE")
 
 # METADATA ********************
 
