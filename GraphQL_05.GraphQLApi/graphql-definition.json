@@ -1,4 +1,32 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphqlApi/definition/1.0.0/schema.json",
-  "datasources": []
+  "datasources": [
+    {
+      "objects": [
+        {
+          "actions": {
+            "Query": "Enabled",
+            "Query_by_pk": "Enabled",
+            "Create": "Enabled",
+            "Update": "Enabled",
+            "Delete": "Enabled"
+          },
+          "fieldMappings": {
+            "_c0": "_c0",
+            "_c1": "_c1",
+            "_c2": "_c2",
+            "_c3": "_c3"
+          },
+          "graphqlType": "workspaceidentities",
+          "isUserDefinedKeyField": false,
+          "relationships": [],
+          "sourceObject": "dbo.[workspace identities]",
+          "sourceObjectType": "Table"
+        }
+      ],
+      "sourceItemId": "515b3adb-3a5b-4255-b30c-193864aa8991",
+      "sourceType": "SqlAnalyticsEndpoint",
+      "sourceWorkspaceId": "cf1b148b-c5a0-4b97-8b37-6de41045ea9c"
+    }
+  ]
 }
