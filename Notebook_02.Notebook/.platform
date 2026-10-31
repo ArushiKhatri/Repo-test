@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Lakehouse",
-    "displayName": "Myworkflow"
+    "type": "Notebook",
+    "displayName": "Notebook_02"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "c1a3d8e1-c3ef-9c36-4821-7bf0763c1726"
+    "logicalId": "ead78f62-b221-838a-462d-472b11629d05"
   }
 }
