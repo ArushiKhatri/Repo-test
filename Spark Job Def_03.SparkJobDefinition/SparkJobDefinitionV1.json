@@ -1,11 +1,11 @@
 {
-  "executableFile": null,
-  "defaultLakehouseArtifactId": null,
-  "mainClass": null,
+  "executableFile": "Notebook_02.py",
+  "defaultLakehouseArtifactId": "fab38672-309c-42f4-9698-cca7359d0786",
+  "mainClass": "",
   "additionalLakehouseIds": [],
   "retryPolicy": null,
-  "commandLineArguments": null,
-  "additionalLibraryUris": null,
-  "language": null,
+  "commandLineArguments": "",
+  "additionalLibraryUris": [],
+  "language": "Python",
   "environmentArtifactId": null
 }
