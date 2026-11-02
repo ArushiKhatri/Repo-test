@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "GraphModel",
+    "displayName": "Graph Model"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "31cc7e5a-8f11-8e89-494f-774a0d4be665"
+  }
+}
