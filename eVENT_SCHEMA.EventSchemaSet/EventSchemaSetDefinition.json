@@ -1,5 +1,45 @@
 {
-  "eventTypes": [],
-  "schemas": [],
+  "eventTypes": [
+    {
+      "id": "schemmatest",
+      "description": "",
+      "format": "CloudEvents/1.0",
+      "envelopeMetadata": {
+        "id": {
+          "type": "string",
+          "required": true
+        },
+        "type": {
+          "type": "string",
+          "required": true,
+          "value": "schemmatest"
+        },
+        "source": {
+          "type": "string",
+          "required": true
+        },
+        "specversion": {
+          "type": "string",
+          "required": true
+        }
+      },
+      "schemaUrl": "#/schemas/schemmatest",
+      "schemaFormat": "Avro/1.12.0"
+    }
+  ],
+  "schemas": [
+    {
+      "id": "schemmatest",
+      "format": "Avro/1.12.0",
+      "versions": [
+        {
+          "id": "v1",
+          "format": "Avro/1.12.0",
+          "schema": "{\n \"fields\": [\n  {\n   \"name\": \"name\",\n   \"type\": \"string\"\n  }\n ],\n \"type\": \"record\",\n \"name\": \"schemmatest\"\n}",
+          "ancestor": "v1"
+        }
+      ]
+    }
+  ],
   "name": "eVENT_SCHEMA"
 }
