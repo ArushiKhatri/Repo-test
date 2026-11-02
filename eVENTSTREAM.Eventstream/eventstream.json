@@ -16,9 +16,9 @@
       "type": "Lakehouse",
       "properties": {
         "workspaceId": "00000000-0000-0000-0000-000000000000",
-        "itemId": "ebeeed49-0829-b55b-4d10-f4fe256a10e7",
-        "schema": "dboo",
-        "deltaTable": "Demotest",
+        "itemId": "3f96a24b-5706-aa47-4602-7ec1ed6cd947",
+        "schema": "dbooo",
+        "deltaTable": "new",
         "minimumRows": 1000,
         "inputSerialization": {
           "type": "Json",
